@@ -1,6 +1,6 @@
 @import url('./normalize.css');
 @import url('./fonts/stylesheet.css');
-
+@import url('./feed.css');
 
 * {
     box-sizing: border-box;
@@ -8,14 +8,13 @@
 }
 
 .wrapper {
-    width: 1100px;
+    width: 1450px;
     margin-left: auto;
     margin-right: auto;
 }
 
 body {
-/* background-color: #F9F9F9 ; */
-    background-color: aquamarine;
+    background-color: #F9F9F9;
 }
 
 header {
@@ -43,12 +42,14 @@ header {
     text-decoration: none;
 }
 
-input {
+.search-input {
     width: 345px;
     height: 54px;
     border: 1px solid #BDBDBD;
     border-radius: 10px;
+    background-color :#F2F2F2;
 }
+
 
 nav {
     display: flex;
@@ -65,3 +66,26 @@ nav {
     margin-right: 40px;
 }
 
+main {
+    padding-top: 75px;
+}
+
+.back {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.navigation-main {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
+    text-decoration: none;
+}
+
+.navigation-main-section {
+    margin-bottom: 30px;
+}

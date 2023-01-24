@@ -1,0 +1,101 @@
+.block {
+    border: 1px solid #F2F2F2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap : 20px 46px;
+}
+
+.forma {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-right: 12px;
+}
+
+.chek {
+    background: #FFFFFF;
+    border: transparent;
+    color: #4F4F4F;
+
+}
+
+input:checked + .chek {
+    background: #FFFFFF;
+    border: 1px solid #3ECF5E;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* padding: 4px 12px; */
+}
+
+.none {
+    display: none;
+}
+
+.dot {
+    display: inline-block; 
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #BDBDBD;
+}
+
+.button-text {
+    background: #3FCF5E;
+    border: 1px solid rgba(5, 175, 52, 0.53);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 12px 32px;
+}
+
+.suma {
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    padding: 9px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #333333;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.name-liters {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #828282;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.money {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 29px;
+}
