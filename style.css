@@ -8,7 +8,7 @@
 }
 
 .wrapper {
-    width: 1400px;
+    width: 1450px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,15 +23,17 @@ header {
     background: #FFFFFF;
 }
 
+.logo-right {
+    display: flex;
+    align-items: center;
+}
+
 .logo-section {
     display: flex;
     justify-content: space-between;
     margin-bottom: 42px;
 }
 
-.tel {
-    margin-right: 11.25px;
-}
 
 .tel-number {
     margin-right: 60px;
@@ -40,16 +42,34 @@ header {
     line-height: 21px;
     color: #000000;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 11.25px;
 }
 
-.search-input {
+.forma-search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color :#F2F2F2;
     width: 345px;
     height: 54px;
     border: 1px solid #BDBDBD;
     border-radius: 10px;
-    background-color :#F2F2F2;
 }
 
+.search-input {
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.search {
+    border: none;
+    background-color: transparent;
+}
 
 nav {
     display: flex;
@@ -66,26 +86,49 @@ nav {
     margin-right: 40px;
 }
 
-main {
-    padding-top: 75px;
+
+footer {
+    background: #333333;
+    padding-bottom: 130px;
+    padding-top: 100px;
 }
 
-.back {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #333333;
-    text-decoration: none;
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.navigation-main {
+.trans {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    color: #BDBDBD;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
-.navigation-main-section {
-    margin-bottom: 30px;
+.trans a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
+
+.trans a:first-child {
+    margin-right: 47px;
+}
+
+.media a:first-child {
+    margin-right: 20px;
+}
+
+.kontakt a {
+    display: flex;
+    align-items: center;
+    gap: 11.25px;
+    color: #FFFFFF
+}
+
+
+
